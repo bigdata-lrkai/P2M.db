@@ -26,8 +26,7 @@ Integrative Database For ScRNA-Seq And Bulk Transcriptome Data On Cancer Metasta
 
 <img src="md/help1.png" style="zoom:60%;" align="left"/>
 
-
-
+---
 
 ###### 2. How to perform online analysis on a dataset?
 
