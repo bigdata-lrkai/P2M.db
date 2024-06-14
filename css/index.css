@@ -1,0 +1,311 @@
+.clickText{
+line-height: 1;
+font-weight: 400;
+font-size: 16px;
+}
+
+.divTipAddArrow:before,
+.divTipAddArrowleft:before,
+.divTipAddArrowleft:after,
+.divTipAddArrow:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%; /* 调整为50%以居中三角形 */
+  width: 0;
+  height: 0;
+}
+
+.divTipAddArrow:before { /* 左边三角形 */
+  left: -10px; /* 改为left定位 */
+  margin-top: -5px; /* 调整垂直居中 */
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-right: 10px solid #d4d4d4; /* 左边三角形颜色与边框一致 */
+}
+
+.divTipAddArrow {
+  float: left;
+  position: relative;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #d4d4d4;
+  border-radius: 5px;
+  background-color: white;
+  z-index: 1050;
+}
+
+.divTipAddArrowleft:before { /* 左边三角形 */
+  right: -10px; /* 改为left定位 */
+  margin-top: -5px; /* 调整垂直居中 */
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 10px solid #d4d4d4; /* 左边三角形颜色与边框一致 */
+}
+
+.divTipAddArrowleft {
+  float: right;
+  position: relative;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #d4d4d4;
+  border-radius: 5px;
+  background-color: white;
+  z-index: 1050;
+}
+
+.container-flex {
+    display: flex; 
+    align-items: flex-start; 
+}
+
+/* 根据需要调整图片和文本之间的间距 */
+.container-flex img {
+    margin-right: 2rem;
+}
+
+.cardright{
+    left:93px;
+}
+
+.cardleft{
+     right: 113px;
+}
+
+.tissueImages {
+    transition: transform 0.3s ease; /* 添加过渡效果 */
+    cursor: pointer;
+    width: 80px;
+}
+
+.tissueImages:hover {
+    transform: scale(1.1); /* 当鼠标悬停时，图像放大10% */
+}
+
+.tagBall{
+      width: 500px;
+      height: 400px;
+      margin-top:0px;
+      margin-left:80px;
+      position: relative;
+    }
+    
+ .tag{
+      display: block;
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      color: #000;
+      text-decoration: none;
+      font-size: 14px;
+      font-family: "微软雅黑";
+      font-weight: bold;
+    }
+.tag:hover{border:1px solid #666;}
+.offer__section {
+  position: relative;
+}
+.offer__section .section__sub__title {
+  position: relative;
+  color: #fc3c59;
+  display: inline;
+}
+.offer__section .section__sub__title::before {
+  position: absolute;
+  content: '';
+  width: 110%;
+  height: 25px;
+  border-top: 1px solid #E6E6E6;
+  border-left: 1px solid #E6E6E6;
+  top: -10px;
+  left: -6%;
+  z-index: -1;
+}
+.offer__section .single__offer__box {
+  border-radius: 10px;
+  height: 400px;
+  padding: 47px 35px;
+  background: #E5F0FD;
+  border: 1px solid transparent;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -ms-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+.offer__section .single__offer__box:hover {
+  background: #F4E9EB;
+  border: 1px solid black;
+  overflow: hidden;
+}
+@media only screen and (max-width: 1800px) {
+  .offer__section .single__offer__box {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+}
+.offer__section .single__offer__box .icon {
+  position: relative;
+  width: 78px;
+  height: 78px;
+  border-radius: 50%;
+  background: white;
+  padding: 19px 18px;
+}
+.offer__section .single__offer__box .icon::after {
+  position: absolute;
+  content: '';
+  width: 96px;
+  height: 96px;
+  border: 1px solid #357ffe;
+  left: -9px;
+  top: -9px;
+  border-radius: 50%;
+}
+.offer__section .single__offer__box .icon-two {
+  background: rgba(255, 62, 74, 0.2);
+}
+.offer__section .single__offer__box .icon-three {
+  background: rgba(255, 135, 0, 0.2);
+}
+.offer__section .single__offer__box .icon-three {
+  background: rgba(40, 120, 235, 0.2);
+}
+.offer__section .single__offer__box .offer__title {
+  margin-top: 40px;
+  font-size: 24px;
+  font-weight: 700;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -ms-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+.offer__section .single__offer__box .offer__title a,.offer__name a{
+  text-decoration: none;
+}
+.offer__section .single__offer__box .offer__title:hover {
+  color: #fc3c59;
+}
+.offer__section .single__offer__box p {
+  font-size: 16px;
+}
+.offer__section .single__offer__box .ht_btn {
+  text-transform: capitalize;
+  background: #216996;
+  padding: 15px 20px;
+  border-radius: 2px;
+  position: absolute;
+  top: 330px;
+}
+.offer__section .single__offer__box .ht_btn::before {
+  background: #fc3c59;
+}
+.offer__section .single__offer__box .ht_btn span {
+  margin-right: 10px;
+}
+.offer__section .offer_bg__01 {
+  left: 0;
+  top: -25%;
+  z-index: -2;
+}
+@media only screen and (max-width: 1800px) {
+  .offer__section .offer_bg__01 {
+    display: none;
+  }
+}
+.offer__section .offer_bg__02 {
+  right: 0;
+  top: 40px;
+  z-index: -1;
+}
+@media only screen and (max-width: 1800px) {
+  .offer__section .offer_bg__02 {
+    display: none;
+  }
+}
+
+
+@media only screen and (max-width: 1800px) {
+  user__form::before {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1800px) {
+  .user__form::after {
+    display: none;
+  }
+}
+
+.subscribe__form {
+  z-index: 1;
+  display: inline-block;
+  width: 100%;
+  max-width: 555px;
+}
+.subscribe__form input {
+  font-family: "Kumbh Sans", sans-serif !important;
+  color: rgba(19, 23, 29, 0.7) !important;
+  font-size: 16px !important;
+  font-weight: 500;
+  line-height: 1;
+  height: 60px;
+  width: 82%;
+  max-width: 555px;
+  padding-left: 30px;
+  border-radius: 5px;
+  border: 1px solid #000;
+  background: transparent;
+}
+.subscribe__form input::-moz-placeholder {
+  font-family: "Kumbh Sans", sans-serif !important;
+  color: rgba(19, 23, 29, 0.7) !important;
+  font-size: 16px !important;
+}
+.subscribe__form input::-o-placeholder {
+  font-family: "Kumbh Sans", sans-serif !important;
+  color: rgba(19, 23, 29, 0.7) !important;
+  font-size: 16px !important;
+}
+.subscribe__form input::-ms-placeholder {
+  font-family: "Kumbh Sans", sans-serif !important;
+  color: rgba(19, 23, 29, 0.7) !important;
+  font-size: 16px !important;
+}
+.subscribe__form input::-webkit-placeholder {
+  font-family: "Kumbh Sans", sans-serif !important;
+  color: rgba(19, 23, 29, 0.7) !important;
+  font-size: 16px !important;
+}
+.subscribe__form input::placeholder {
+  font-family: "Kumbh Sans", sans-serif !important;
+  color: rgba(19, 23, 29, 0.7) !important;
+  font-size: 16px !important;
+}
+@media only screen and (max-width: 991.98px) {
+  .subscribe__form input {
+    max-width: 100%;
+  }
+}
+.subscribe__form .submit-btn {
+  background: black;
+  color: white;
+  font-weight: 700;
+  position: absolute;
+  right: 4px;
+  height: 60px;
+  display: inline-block;
+  line-height: 60px;
+  border: 0;
+  padding: 0 25px;
+  border-radius: 5px;
+}
+.subscribe__form .submit-btn::before {
+  background: #fc3c59;
+}
+@media only screen and (max-width: 767.98px) {
+  .subscribe__form .submit-btn {
+    display: none;
+  }
+}
