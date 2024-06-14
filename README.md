@@ -26,7 +26,9 @@ Integrative Database For ScRNA-Seq And Bulk Transcriptome Data On Cancer Metasta
 
 <img src="md/help1.png" style="zoom:60%;" align="left"/>
 
+
 ---
+
 
 ###### 2. How to perform online analysis on a dataset?
 
@@ -39,6 +41,7 @@ For each dataset, we offer two options for cell annotation: singleR and scType. 
 Within the generated results, you can delve into the differences between primary and metastatic cancers. **Additionally**, you have the option to save the result images in PDF format to your local device.Furthermore, in the "download" section, a variety of result files are available for users to download.
 
 <img src="md/help2.png"  style="zoom:60%;" align="left"/>
+
 
 ---
 
