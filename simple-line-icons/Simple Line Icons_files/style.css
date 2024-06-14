@@ -1,0 +1,44 @@
+.preview {
+    padding: 15px 0;
+    position: relative;
+    height: 100px;
+}
+
+.icons {
+    font-size: 18px;
+    padding-right: 7px;
+}
+
+.code-preview {
+    display: none;
+}
+
+.name {
+    font-size: 18px;
+}
+
+.show-code {
+    color: #101010;
+}
+.mt {
+    padding-top: 50px;
+}
+
+.show-code:hover, .show-code:active, .show-code:focus {
+    color: #252525;
+    text-decoration: none;
+}
+.footer {
+    background: #efefef;
+    min-height: 60px;
+    padding: 20px;
+}
+.navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav > li > a {
+    color: #ffffff;
+}
+.navbar-nav > li > iframe {
+    margin-top: 13px;
+}
+body {
+    font-family: "Helvetica Neue", "Roboto", sans-serif;
+}
