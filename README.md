@@ -2,7 +2,7 @@
 
 Integrative Database For ScRNA-Seq And Bulk Transcriptome Data On Cancer Metastasis.
 
-Access: http://www.nidmarker-db.cn/P2M.db or http://43.163.194.16/P2M.db/
+Access: https://www.nidmarker-db.cn/P2M.db or http://43.163.194.16/P2M.db/
 
 
 ---
